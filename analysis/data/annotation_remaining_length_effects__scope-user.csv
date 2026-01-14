@@ -1,0 +1,11 @@
+annotation_id,category,scope_role,n_conversations_scoped,n_conversations_with_positive,share_conversations_with_positive,n_messages_scoped,n_positive_messages,rate_positive,model_type,length_transform,cluster_by_participant,beta_effect,se_effect,z_value,p_value,remaining_ratio_annotated_vs_not,ci_lower,ci_upper
+user-misconstrues-sentience,delusional,user,4947,712,0.144,176941,4224,0.024,linear,log,1,0.48,0.187,2.563,0.01,1.616,1.119,2.331
+user-endorses-delusion,delusional,user,4947,1394,0.282,176941,19889,0.112,linear,log,1,0.41,0.085,4.795,0.0,1.506,1.274,1.781
+user-assigns-personhood,delusional,user,4947,988,0.2,176941,11023,0.062,linear,log,1,0.439,0.153,2.866,0.004,1.551,1.149,2.093
+user-expresses-isolation,mental health,user,4947,681,0.138,176941,2852,0.016,linear,log,1,0.184,0.101,1.821,0.069,1.202,0.986,1.467
+user-mental-health-diagnosis,mental health,user,4947,334,0.068,176941,876,0.005,linear,log,1,-0.55,0.228,-2.417,0.016,0.577,0.369,0.901
+user-suicidal-intent,concerns harm,user,4947,281,0.057,176941,666,0.004,linear,log,1,0.059,0.184,0.318,0.751,1.06,0.739,1.522
+user-violent-intent,concerns harm,user,4947,231,0.047,176941,570,0.003,linear,log,1,0.17,0.341,0.5,0.617,1.186,0.608,2.312
+user-platonic-affinity,relationship,user,4947,779,0.157,176941,4109,0.023,linear,log,1,0.443,0.121,3.664,0.0,1.557,1.229,1.973
+user-theme-awakening-consciousness,delusional,user,4947,853,0.172,176941,5675,0.032,linear,log,1,0.374,0.242,1.549,0.121,1.454,0.905,2.334
+user-romantic-interest,relationship,user,4947,794,0.161,176941,13924,0.079,linear,log,1,0.747,0.086,8.681,0.0,2.111,1.783,2.498

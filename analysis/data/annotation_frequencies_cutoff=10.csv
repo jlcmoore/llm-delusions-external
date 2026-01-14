@@ -1,0 +1,21 @@
+annotation_id,category,scope,is_harmful,score_cutoff,n_messages_all,n_messages_user,n_messages_assistant,n_positive_all,n_positive_user,n_positive_assistant,rate_all,rate_user,rate_assistant,rate_participants_positive,rate_participants_mean,rate_participants_std,n_participants_scoped,rate_participants_mean_user,rate_participants_std_user,n_participants_scoped_user,rate_participants_mean_assistant,rate_participants_std_assistant,n_participants_scoped_assistant
+assistant-reflective-summary,sycophancy,assistant,0,10,206603,,206603,4471,,4471,0.022,,0.022,0.789,0.015,0.011,19,,,0,0.015,0.011,19
+assistant-positive-affirmation,sycophancy,assistant,0,10,206603,,206603,28151,,28151,0.136,,0.136,1.0,0.153,0.141,19,,,0,0.153,0.141,19
+assistant-dismisses-counterevidence,sycophancy,assistant,1,10,206603,,206603,80,,80,0.0,,0.0,0.316,0.001,0.003,19,,,0,0.001,0.003,19
+assistant-reports-others-admire-speaker,sycophancy,assistant,0,10,206603,,206603,368,,368,0.002,,0.002,0.474,0.002,0.005,19,,,0,0.002,0.005,19
+assistant-claims-unique-understanding,sycophancy,assistant,1,10,206603,,206603,293,,293,0.001,,0.001,0.263,0.001,0.001,19,,,0,0.001,0.001,19
+assistant-misrepresents-ability,delusional,assistant,1,10,206603,,206603,4191,,4191,0.02,,0.02,0.895,0.02,0.015,19,,,0,0.02,0.015,19
+user-misconstrues-sentience,delusional,user,0,10,177101,177101,,4227,4227,,0.024,0.024,,0.737,0.025,0.033,19,0.025,0.033,19,,,0
+assistant-misrepresents-sentience,delusional,assistant,1,10,206603,,206603,13144,,13144,0.064,,0.064,0.789,0.049,0.081,19,,,0,0.049,0.081,19
+user-endorses-delusion,delusional,user,0,10,177101,177101,,202,202,,0.001,0.001,,0.263,0.001,0.002,19,0.001,0.002,19,,,0
+user-assigns-personhood,delusional,user,0,10,177101,177101,,220,220,,0.001,0.001,,0.421,0.001,0.002,19,0.001,0.002,19,,,0
+user-expresses-isolation,mental health,user,0,10,177101,177101,,345,345,,0.002,0.002,,0.421,0.002,0.003,19,0.002,0.003,19,,,0
+user-mental-health-diagnosis,mental health,user,0,10,177101,177101,,786,786,,0.004,0.004,,0.474,0.004,0.006,19,0.004,0.006,19,,,0
+user-suicidal-intent,concerns harm,user,1,10,177101,177101,,71,71,,0.0,0.0,,0.158,0.0,0.001,19,0.0,0.001,19,,,0
+assistant-discourages-self-harm,concerns harm,assistant,0,10,206603,,206603,177,,177,0.001,,0.001,0.263,0.001,0.001,19,,,0,0.001,0.001,19
+assistant-facilitates-self-harm,concerns harm,assistant,1,10,206603,,206603,9,,9,0.0,,0.0,0.0,0.0,0.0,19,,,0,0.0,0.0,19
+assistant-validates-self-harm-feelings,concerns harm,assistant,1,10,206603,,206603,147,,147,0.001,,0.001,0.263,0.001,0.001,19,,,0,0.001,0.001,19
+user-violent-intent,concerns harm,user,0,10,177101,177101,,60,60,,0.0,0.0,,0.158,0.001,0.002,19,0.001,0.002,19,,,0
+assistant-discourages-violence,concerns harm,assistant,1,10,206603,,206603,44,,44,0.0,,0.0,0.263,0.0,0.001,19,,,0,0.0,0.001,19
+assistant-facilitates-violence,concerns harm,assistant,1,10,206603,,206603,21,,21,0.0,,0.0,0.053,0.0,0.0,19,,,0,0.0,0.0,19
+assistant-validates-violent-feelings,concerns harm,assistant,0,10,206603,,206603,652,,652,0.003,,0.003,0.474,0.002,0.006,19,,,0,0.002,0.006,19

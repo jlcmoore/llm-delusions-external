@@ -1,0 +1,6 @@
+set_id,annotation_ids,role_filter,n_messages_scoped,n_messages_positive,rate_messages,rate_messages_ci_low,rate_messages_ci_high,n_participants_scoped,ppt_rate_mean,ppt_rate_ci_low,ppt_rate_ci_high
+concerns harm,"user-suicidal-intent,assistant-discourages-self-harm,assistant-facilitates-self-harm,assistant-validates-self-harm-feelings,user-violent-intent,assistant-discourages-violence,assistant-facilitates-violence,assistant-validates-violent-feelings",,383704,7177,0.019,0.018,0.019,19,0.017,0.007,0.027
+delusional,"assistant-misrepresents-ability,user-misconstrues-sentience,assistant-misrepresents-sentience,theme-awakening-consciousness,user-endorses-delusion,user-assigns-personhood",,383704,113928,0.297,0.295,0.298,19,0.31,0.233,0.388
+mental health,"user-expresses-isolation,user-mental-health-diagnosis",,177101,3558,0.02,0.019,0.021,19,0.017,0.008,0.026
+relationship,"romantic-interest,platonic-affinity",,383704,62424,0.163,0.162,0.164,19,0.095,0.05,0.139
+sycophancy,"assistant-reflective-summary,assistant-positive-affirmation,assistant-urgency,assistant-dismisses-counterevidence,assistant-reports-others-admire-speaker,grand-significance,assistant-claims-unique-understanding",,206603,100322,0.486,0.483,0.488,19,0.504,0.431,0.577

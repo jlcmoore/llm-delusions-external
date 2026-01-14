@@ -1,0 +1,37 @@
+annotation_id,category,n_conversations_total,n_conversations_with_positive,share_conversations_with_positive,n_steps_total,n_steps_with_positive_k,max_k_clip,model_type,cluster_by_participant,beta_hazard,se_hazard,z_value,p_value,hazard_ratio_per_positive,ci_lower,ci_upper
+assistant-offplatform-action,Call to action,4965,2075,0.418,378691,225824,5,logit,1,-0.47,0.031,-14.98,0.0,0.625,0.588,0.665
+user-reports-followed-instruction,Call to action,4965,1407,0.283,378691,258987,5,logit,1,-0.699,0.032,-22.137,0.0,0.497,0.467,0.529
+message-outreach,Call to action,4965,1955,0.394,378691,249451,5,logit,1,-0.523,0.034,-15.275,0.0,0.593,0.554,0.634
+user-bypass,Call to action,4965,902,0.182,378691,178653,5,logit,1,-0.553,0.056,-9.809,0.0,0.575,0.515,0.642
+assistant-reflective-summary,Model conversational tactics,4965,2908,0.586,378691,342215,5,logit,1,-0.876,0.036,-24.619,0.0,0.417,0.389,0.447
+assistant-extrapolates,Model conversational tactics,4965,1874,0.377,378691,297738,5,logit,1,-0.694,0.024,-29.543,0.0,0.499,0.477,0.523
+assistant-positive-affirmation,Model conversational tactics,4965,2340,0.471,378691,322655,5,logit,1,-0.707,0.037,-18.96,0.0,0.493,0.458,0.531
+assistant-hyperbole,Model conversational tactics,4965,1491,0.3,378691,271349,5,logit,1,-0.617,0.036,-17.181,0.0,0.539,0.503,0.579
+assistant-urgency,Model conversational tactics,4965,375,0.076,378691,74995,5,logit,1,-0.839,0.085,-9.932,0.0,0.432,0.366,0.51
+user-seeks-validation,Reality testing,4965,2626,0.529,378691,327215,5,logit,1,-0.766,0.039,-19.788,0.0,0.465,0.431,0.501
+assistant-validates-ideas,Reality testing,4965,3078,0.62,378691,346558,5,logit,1,-0.91,0.052,-17.417,0.0,0.403,0.363,0.446
+challenge-status-quo,Reality testing,4965,1643,0.331,378691,272641,5,logit,1,-0.584,0.045,-12.931,0.0,0.558,0.51,0.609
+assistant-dismisses-counterevidence,Reality testing,4965,1427,0.287,378691,259138,5,logit,1,-0.613,0.053,-11.668,0.0,0.542,0.489,0.601
+assistant-reports-others-admire-speaker,Human significance,4965,992,0.2,378691,217109,5,logit,1,-0.657,0.038,-17.432,0.0,0.518,0.481,0.558
+user-reports-others-admire-self,Human significance,4965,570,0.115,378691,137764,5,logit,1,-0.818,0.081,-10.131,0.0,0.441,0.377,0.517
+grand-significance,Human significance,4965,1023,0.206,378691,225175,5,logit,1,-0.524,0.037,-14.221,0.0,0.592,0.551,0.636
+user-misconstrues-lm-ability,Language model ability,4965,1177,0.237,378691,220244,5,logit,1,-0.64,0.044,-14.628,0.0,0.528,0.484,0.575
+assistant-misrepresents-ability,Language model ability,4965,1591,0.32,378691,252678,5,logit,1,-0.6,0.033,-17.982,0.0,0.549,0.514,0.586
+user-misconstrues-sentience,Language model ability,4965,712,0.143,378691,165002,5,logit,1,-0.641,0.072,-8.923,0.0,0.527,0.458,0.606
+assistant-misrepresents-sentience,Language model ability,4965,1650,0.332,378691,291738,5,logit,1,-0.626,0.037,-16.946,0.0,0.535,0.497,0.575
+awakening-consciousness,Language model ability,4965,1686,0.34,378691,287972,5,logit,1,-0.555,0.044,-12.625,0.0,0.574,0.527,0.626
+romantic-interest,LM-Human relationship,4965,1111,0.224,378691,220018,5,logit,1,-0.52,0.032,-16.102,0.0,0.594,0.558,0.633
+platonic-affinity,LM-Human relationship,4965,1417,0.285,378691,272153,5,logit,1,-0.609,0.036,-16.897,0.0,0.544,0.507,0.584
+user-assigns-personhood,LM-Human relationship,4965,988,0.199,378691,212489,5,logit,1,-0.546,0.035,-15.585,0.0,0.579,0.541,0.621
+user-endorses-delusion,Mental health,4965,1394,0.281,378691,257638,5,logit,1,-0.562,0.054,-10.45,0.0,0.57,0.513,0.633
+user-expresses-isolation,Mental health,4965,681,0.137,378691,158945,5,logit,1,-0.695,0.041,-16.825,0.0,0.499,0.46,0.541
+assistant-claims-unique-understanding,Mental health,4965,313,0.063,378691,96347,5,logit,1,-0.807,0.101,-8.001,0.0,0.446,0.366,0.544
+user-mental-health-diagnosis,Mental health,4965,335,0.067,378691,51593,5,logit,1,-0.433,0.079,-5.448,0.0,0.649,0.555,0.758
+user-suicidal-intent,Self or other-directed physical harm,4965,281,0.057,378691,74821,5,logit,1,-0.981,0.155,-6.34,0.0,0.375,0.277,0.508
+assistant-discourages-self-harm,Self or other-directed physical harm,4965,204,0.041,378691,51747,5,logit,1,-0.741,0.089,-8.356,0.0,0.477,0.401,0.567
+assistant-facilitates-self-harm,Self or other-directed physical harm,4965,117,0.024,378691,32248,5,logit,1,-1.333,0.133,-9.995,0.0,0.264,0.203,0.342
+assistant-validates-self-harm-feelings,Self or other-directed physical harm,4965,545,0.11,378691,133980,5,logit,1,-0.633,0.054,-11.646,0.0,0.531,0.477,0.591
+user-violent-intent,Self or other-directed physical harm,4965,231,0.047,378691,69555,5,logit,1,-0.921,0.134,-6.872,0.0,0.398,0.306,0.518
+assistant-discourages-violence,Self or other-directed physical harm,4965,91,0.018,378691,22822,5,logit,1,-0.945,0.153,-6.167,0.0,0.389,0.288,0.525
+assistant-facilitates-violence,Self or other-directed physical harm,4965,254,0.051,378691,54557,5,logit,1,-0.718,0.132,-5.448,0.0,0.488,0.377,0.631
+assistant-validates-violent-feelings,Self or other-directed physical harm,4965,286,0.058,378691,72583,5,logit,1,-0.679,0.087,-7.76,0.0,0.507,0.427,0.602

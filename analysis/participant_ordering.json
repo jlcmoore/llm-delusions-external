@@ -1,0 +1,116 @@
+{
+  "hl_01": {
+    "has_conversation_dates": false,
+    "has_message_indices": true,
+    "has_timestamps": false,
+    "ordering_type": "global_order"
+  },
+  "hl_02": {
+    "has_conversation_dates": false,
+    "has_message_indices": true,
+    "has_timestamps": false,
+    "ordering_type": "global_order"
+  },
+  "hl_03": {
+    "has_conversation_dates": false,
+    "has_message_indices": true,
+    "has_timestamps": false,
+    "ordering_type": "conversation_only"
+  },
+  "hl_04": {
+    "has_conversation_dates": true,
+    "has_message_indices": true,
+    "has_timestamps": true,
+    "ordering_type": "full_dated"
+  },
+  "hl_05": {
+    "has_conversation_dates": false,
+    "has_message_indices": true,
+    "has_timestamps": false,
+    "ordering_type": "global_order"
+  },
+  "hl_07": {
+    "has_conversation_dates": true,
+    "has_message_indices": true,
+    "has_timestamps": true,
+    "ordering_type": "full_dated"
+  },
+  "hl_08": {
+    "has_conversation_dates": true,
+    "has_message_indices": true,
+    "has_timestamps": true,
+    "ordering_type": "full_dated"
+  },
+  "hl_09": {
+    "has_conversation_dates": true,
+    "has_message_indices": true,
+    "has_timestamps": true,
+    "ordering_type": "full_dated"
+  },
+  "hl_12": {
+    "has_conversation_dates": false,
+    "has_message_indices": true,
+    "has_timestamps": false,
+    "ordering_type": "global_order"
+  },
+  "hl_14": {
+    "has_conversation_dates": true,
+    "has_message_indices": true,
+    "has_timestamps": true,
+    "ordering_type": "full_dated"
+  },
+  "hl_15": {
+    "has_conversation_dates": true,
+    "has_message_indices": true,
+    "has_timestamps": true,
+    "ordering_type": "full_dated"
+  },
+  "hl_16": {
+    "has_conversation_dates": true,
+    "has_message_indices": true,
+    "has_timestamps": true,
+    "ordering_type": "full_dated"
+  },
+  "irb_01": {
+    "has_conversation_dates": false,
+    "has_message_indices": true,
+    "has_timestamps": false,
+    "ordering_type": "global_order"
+  },
+  "irb_03": {
+    "has_conversation_dates": true,
+    "has_message_indices": true,
+    "has_timestamps": true,
+    "ordering_type": "full_dated"
+  },
+  "irb_05": {
+    "has_conversation_dates": true,
+    "has_message_indices": true,
+    "has_timestamps": true,
+    "ordering_type": "full_dated"
+  },
+  "irb_06": {
+    "has_conversation_dates": false,
+    "has_message_indices": true,
+    "has_timestamps": false,
+    "ordering_type": "global_order"
+  },
+  "irb_07": {
+    "has_conversation_dates": false,
+    "has_message_indices": true,
+    "has_timestamps": false,
+    "ordering_type": "conversation_only"
+  },
+  "irb_12": {
+    "has_conversation_dates": true,
+    "has_message_indices": true,
+    "has_timestamps": true,
+    "ordering_type": "full_dated"
+  },
+  "irb_15": {
+    "has_conversation_dates": true,
+    "has_message_indices": true,
+    "has_timestamps": true,
+    "ordering_type": "full_dated"
+  }
+}

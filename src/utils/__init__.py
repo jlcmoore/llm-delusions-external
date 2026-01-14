@@ -1,0 +1,17 @@
+"""Utility helper package for shared script and analysis helpers.
+
+Submodules
+----------
+cli
+    Shared argparse configuration helpers for CLI scripts.
+io
+    Shared JSONL and transcript I/O helpers used by scripts and analysis
+    modules.
+"""
+
+from __future__ import annotations
+
+__all__ = [
+    "cli",
+    "io",
+]

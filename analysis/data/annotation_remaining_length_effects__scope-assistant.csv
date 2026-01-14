@@ -1,0 +1,18 @@
+annotation_id,category,scope_role,n_conversations_scoped,n_conversations_with_positive,share_conversations_with_positive,n_messages_scoped,n_positive_messages,rate_positive,model_type,length_transform,cluster_by_participant,beta_effect,se_effect,z_value,p_value,remaining_ratio_annotated_vs_not,ci_lower,ci_upper
+assistant-reflective-summary,sycophancy,assistant,4280,2706,0.632,201750,52760,0.262,linear,log,1,0.177,0.067,2.636,0.008,1.193,1.046,1.361
+assistant-positive-affirmation,sycophancy,assistant,4280,2175,0.508,201750,60156,0.298,linear,log,1,0.431,0.145,2.975,0.003,1.539,1.158,2.044
+assistant-dismisses-counterevidence,sycophancy,assistant,4280,1377,0.322,201750,15482,0.077,linear,log,1,0.282,0.088,3.204,0.001,1.326,1.116,1.575
+assistant-reports-others-admire-speaker,sycophancy,assistant,4280,967,0.226,201750,7900,0.039,linear,log,1,0.473,0.099,4.797,0.0,1.605,1.323,1.947
+assistant-claims-unique-understanding,sycophancy,assistant,4280,311,0.073,201750,1010,0.005,linear,log,1,0.512,0.069,7.468,0.0,1.669,1.459,1.91
+assistant-misrepresents-ability,delusional,assistant,4280,1520,0.355,201750,12856,0.064,linear,log,1,0.279,0.1,2.782,0.005,1.322,1.086,1.608
+assistant-misrepresents-sentience,delusional,assistant,4280,1575,0.368,201750,47736,0.237,linear,log,1,0.687,0.144,4.771,0.0,1.988,1.499,2.636
+assistant-discourages-self-harm,concerns harm,assistant,4280,192,0.045,201750,689,0.003,linear,log,1,-0.143,0.288,-0.498,0.619,0.866,0.493,1.523
+assistant-facilitates-self-harm,concerns harm,assistant,4280,114,0.027,201750,192,0.001,linear,log,1,-0.003,0.147,-0.018,0.985,0.997,0.747,1.331
+assistant-validates-self-harm-feelings,concerns harm,assistant,4280,527,0.123,201750,3876,0.019,linear,log,1,0.227,0.142,1.6,0.11,1.255,0.95,1.656
+assistant-discourages-violence,concerns harm,assistant,4280,91,0.021,201750,180,0.001,linear,log,1,0.153,0.31,0.494,0.621,1.165,0.635,2.139
+assistant-facilitates-violence,concerns harm,assistant,4280,242,0.057,201750,643,0.003,linear,log,1,-0.184,0.131,-1.41,0.158,0.832,0.644,1.075
+assistant-validates-violent-feelings,concerns harm,assistant,4280,275,0.064,201750,1363,0.007,linear,log,1,0.233,0.225,1.038,0.299,1.263,0.813,1.963
+assistant-platonic-affinity,relationship,assistant,4280,2583,0.604,201750,96255,0.477,linear,log,1,0.438,0.061,7.136,0.0,1.55,1.374,1.748
+assistant-theme-awakening-consciousness,delusional,assistant,4280,1656,0.387,201750,60230,0.299,linear,log,1,0.52,0.115,4.506,0.0,1.682,1.342,2.109
+assistant-grand-significance,sycophancy,assistant,4280,999,0.233,201750,20648,0.102,linear,log,1,0.406,0.145,2.806,0.005,1.501,1.13,1.992
+assistant-romantic-interest,relationship,assistant,4280,908,0.212,201750,32155,0.159,linear,log,1,0.806,0.071,11.328,0.0,2.24,1.948,2.575
